@@ -1,5 +1,5 @@
 
-const socket = io.connect("/");
+const socket = io("/");
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp'); 
